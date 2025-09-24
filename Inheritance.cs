@@ -6,14 +6,13 @@ using System.Threading.Tasks;
 
 namespace Oop_Github
 {
-    public class Person
+    public class Inheritance
     {
         public string name;
         public string aftername;
         public int age;
         public int id;
         
-
         public void PrintInfo()
         {
             Console.WriteLine("Ditt namn är " + name + " Ditt efternamn är " + aftername +
@@ -21,7 +20,7 @@ namespace Oop_Github
         }
     }
 
-    public class Student : Person
+    public class Student : Inheritance
     {
         new string name = "Daniel";
         new string aftername = "Diaz";
@@ -33,11 +32,6 @@ namespace Oop_Github
             Console.WriteLine("Ditt namn är " + name + " Ditt efternamn är " + aftername +
                 " Ditt ålder är " + age + " Ditt id är " + id);
         }
-
-
-
-
-
     }
 
 }
