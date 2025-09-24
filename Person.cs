@@ -21,4 +21,23 @@ namespace Oop_Github
         }
     }
 
+    public class Student : Person
+    {
+        new string name = "Daniel";
+        new string aftername = "Diaz";
+        new int age = 31;
+        new int id = 345;
+
+        public new void PrintInfo()
+        {
+            Console.WriteLine("Ditt namn är " + name + " Ditt efternamn är " + aftername +
+                " Ditt ålder är " + age + " Ditt id är " + id);
+        }
+
+
+
+
+
+    }
+
 }

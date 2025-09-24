@@ -7,6 +7,12 @@
             Console.WriteLine("Hello, World!");
             Person person1 = new Person();
             person1.PrintInfo();
+
+            Student student1 = new Student();
+            student1.PrintInfo();
+
+
+
         }
     }
 
