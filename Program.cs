@@ -5,6 +5,11 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
+            Person person1 = new Person();
+            person1.PrintInfo();
         }
     }
+
+
+
 }
