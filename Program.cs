@@ -5,12 +5,14 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
-            Person person1 = new Person();
+            Inheritance person1 = new Inheritance();
             person1.PrintInfo();
 
             Student student1 = new Student();
             student1.PrintInfo();
 
+            Swimmer swimmer1 = new Swimmer();
+            swimmer1.PrintInfo();
 
 
         }
